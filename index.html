@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <nav class="barre-navigation">
+        <div class="nav-gauche">
+            <a href="index.html" class="logo">
+                <span class="logo-AKS">AKS</span>
+                <span class="logo-Service">Service</span>
+            </a>
+        </div>
+
+        <div class="nav-centre">
+            <ul class="menu-principal">
+                <li class="element-menu"><a href="#apropos">A Propos</a></li>
+                <li class="element-menu"><a href="#services">Services</a></li>
+                <li class="element-menu"><a href="#realisations">Mes réalisations</a></li>
+                <li class="element-menu"><a href="#competences">Mes compétences</a></li>
+                <li class="element-menu"><a href="#blog">Blog</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="nav-droite">
+            <a href="#contact" class="bouton-cta">Contactez-Moi</a>
+        </div>
+    </nav>
+    <main>
+        <!-- Début section hero : présentation principale avec image, titre, sous-titre et boutons -->
+        <section class="hero">
+            <div class="hero-contenu">
+                <div class="hero-texte">
+                    <p class="role">Junior Developer</p>
+                    <h1 class="hero-titre">Bienvenue, Je m'appalle</h1>
+                    <h2 class="hero-nom">Simon<span class="nom-highlight"> ATI</span></h2>
+                    <p class="hero-description">Je suis un jeune étudiant passionnée dans le parcours Développement Web et Mobile du projet "D-CLIC Former vous au numérique".</p>
+
+                    <div class="hero-boutons">
+                        <a class="btn btn-primaire" href="#cv">Mon CV</a>
+                        <a class="btn btn-secondaire" href="#realisations">Mes réalisations</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <!-- 'portrait.jpg' -->
+                    <img src="/Image/Phtot Simon.jpg" alt="Photo de Simon" />
+                </div>
+            </div>
+        </section>
+        <!-- Fin section hero -->
+    </main>
+
+
+<!-- début de la section apropos -->
+    <main>
+      <section id="apropos" class="section apropos">
+  <h2>À Propos de moi</h2>
+  <p>
+    Je suis passionnée par le développement d’applications web et mobiles, avec un œil attentif pour le design UI/UX et l’expérience utilisateur.
+  </p>
+  <div class="stats-ligne">
+    <div class="stat-bloc">
+      <span class="stat-chiffre">+02</span>
+      <span class="stat-label">Projets réalisés</span>
+    </div>
+    <div class="stat-bloc">
+      <span class="stat-chiffre">+01</span>
+      <span class="stat-label">Années d'expérience</span>
+    </div>
+    <div class="stat-bloc">
+      <span class="stat-chiffre">+03</span>
+      <span class="stat-label">Clients satisfaits</span>
+    </div>
+  </div>  
+</section>
+
+      <!-- À placer après la section "À propos" dans index.html -->
+<section id="services" class="section services">
+  <h2>Services</h2>
+  <p class="services-intro">
+    Transformons vos idées en solutions concrètes ! Je vous accompagne dans la création d’applications web et mobiles, de designs attractifs et de projets numériques performants, conçus pour captiver vos utilisateurs.
+  </p>
+  <div class="services-ligne">
+    <div class="service-bloc">
+      <!-- Icône Design -->
+      <span class="service-icone">
+        <!-- étoile stylisée SVG -->
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <path d="M20 5v30M5 20h30M10 10l20 20M30 10l-20 20" stroke="#6C63FF" stroke-width="2" stroke-linecap="around"/>
+        </svg>
+      </span>
+      <h3>Design</h3>
+      <p>
+        Je suis spécialisé dans le design UI/UX pour le web et le mobile, en créant des interfaces attrayantes, intuitives et centrées sur l’utilisateur.
+      </p>
+    </div>
+    <div class="service-bloc">
+      <!-- Icône Développement Web -->
+      <span class="service-icone">
+        <!-- cercles SVG -->
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <circle cx="15" cy="20" r="8" stroke="#6C63FF" stroke-width="2"/>
+          <circle cx="25" cy="20" r="8" stroke="#6C63FF" stroke-width="2"/>
+          <circle cx="20" cy="20" r="8" stroke="#6C63FF" stroke-width="2"/>
+        </svg>
+      </span>
+      <h3>Développement Web</h3>
+      <p>
+        Je conçois et développe des sites web performants et adaptés aux besoins de vos utilisateurs.
+      </p>
+    </div>
+    <div class="service-bloc">
+      <!-- Icône Développement Mobile -->
+      <span class="service-icone">
+        <!-- smartphone stylisé SVG -->
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <rect x="12" y="8" width="16" height="24" rx="4" stroke="#6C63FF" stroke-width="2"/>
+          <circle cx="20" cy="28" r="1.5" fill="#6C63FF"/>
+        </svg>
+      </span>
+      <h3>Développement Mobile</h3>
+      <p>
+        Je crée des applications mobiles fluides et intuitives, pour Android et iOS, répondant aux exigences modernes.
+      </p>
+    </div>
+    <div class="service-bloc">
+      <!-- Icône Formation -->
+      <span class="service-icone">
+        <!-- lignes stylisées SVG -->
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <line x1="10" y1="12" x2="30" y2="12" stroke="#6C63FF" stroke-width="2"/>
+          <line x1="10" y1="18" x2="30" y2="18" stroke="#6C63FF" stroke-width="2"/>
+          <line x1="10" y1="24" x2="30" y2="24" stroke="#6C63FF" stroke-width="2"/>
+          <line x1="18" y1="30" x2="22" y2="30" stroke="#6C63FF" stroke-width="2"/>
+        </svg>
+      </span>
+      <h3>Formation</h3>
+      <p>
+        Je propose des formations pratiques et personnalisées pour vous aider à maîtriser le développement web, mobile et le design UI/UX.
+      </p>
+    </div>
+  </div>
+</section>    
+
+<!-- À placer après la section Services dans index.html -->
+<section id="realisations" class="section realisations">
+  <h2>Mes Réalisations</h2>
+  <p class="realisations-intro">
+    Découvrez quelques-uns de mes projets récents, où design, technologie et créativité se rencontrent pour donner vie à des expériences digitales uniques.
+  </p>
+  <div class="realisations-grille">
+    
+    <!-- Projet 2 -->
+    <div class="realisation-bloc">
+      <img src="https://images.pexels.com/photos/6298412/pexels-photo-6298412.jpeg" alt="Travel App">
+      <div class="realisation-txt">
+        <h3>Travel App</h3>
+        <span>Développement Mobile / App Design</span>
+      </div>
+      <a href="#" class="realisation-lien">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="13" stroke="#6C63FF" stroke-width="2"/>
+          <path d="M10 18L18 10M18 10H12M18 10V16" stroke="#6C63FF" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </a>
+    </div>
+    <!-- Projet 3 -->
+     <div class="realisation-bloc">
+          <img src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg" alt="Travel App">  
+      <div class="realisation-txt">
+        <h3>Travel App</h3>
+        <span>Développement Mobile / App Design</span>
+      </div>
+      <a href="#" class="realisation-lien">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="13" stroke="#6C63FF" stroke-width="5"/>
+          <path d="M10 18L18 10M18 10H12M18 10V16" stroke="#6C63FF" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </a>
+    </div>
+    
+    <!-- Projet 4 -->
+    <div class="realisation-bloc">
+      <img src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg" alt="Furniture Mobile App">
+      <div class="realisation-txt">
+        <h3>Furniture Mobile App</h3>
+        <span>App Design / Développement mobile</span>
+      </div>
+      <a href="#" class="realisation-lien">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="13" stroke="#6C63FF" stroke-width="2"/>
+          <path d="M10 18L18 10M18 10H12M18 10V16" stroke="#6C63FF" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </a>
+    </div>
+   
+  </div>
+</section>
+<!-- À placer après la section réalisations dans index.html -->
+<section id="competences" class="section competences">
+  <h2>Mes compétences</h2>
+  <p class="competences-intro">
+    Voici un aperçu de mes compétences techniques et créatives, acquises au fil de mes projets en développement web, mobile et design digital.
+  </p>
+  
+  <div class="competences-grille">
+    <div class="competence-bloc">
+      <span class="competence-label">Développement Web</span>
+      <div class="competence-barre">
+        <div class="competence-remplissage" style="width:25%"></div>
+      </div>
+      <span class="competence-pourcentage">25%</span>
+    </div>
+    
+    <div class="competence-bloc">
+      <span class="competence-label">Développement Mobile</span>
+      <div class="competence-barre">
+        <div class="competence-remplissage" style="width:30%"></div>
+      </div>
+      <span class="competence-pourcentage">30%</span>
+    </div>
+
+</section>
+
+<section id="temoignages" class="section temoignages">
+  <div class="temoignages-contenu">
+    <h2>Témoignages</h2>
+    <div class="temoignage-bloc">
+      <span class="temoignage-nav nav-gauche">&#60;</span>
+      <div class="temoignage-texte">
+        <p>
+          Les designs de Mariette AHOUEKE sont à la fois visuellement captivants et très efficaces. Elle a transformé notre site web, améliorant l’engagement des utilisateurs et les conversions. Son sens du détail et son approche créative sont remarquables. Je la recommande vivement !
+        
+        </p>
+        <p>
+            Son expertise en design UI/UX a considérablement amélioré l’expérience utilisateur de notre application mobile. Grâce à son travail, nous avons vu une augmentation significative de la satisfaction des utilisateurs et des téléchargements. Travailler avec elle a été un plaisir du début à la fin.
+        </p>
+        
+        <div class="temoignage-auteur">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Auteur" class="temoignage-photo">
+          <div>
+            <span class="temoignage-nom">Magloire AGBECINDO</span>
+            <span class="temoignage-fonction">/ Fondateur de Magloire Generation Ministéries</span>
+          </div>
+        </div>
+      </div>
+      <span class="temoignage-nav nav-droite">&#62;</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- À placer après la section témoignages dans index.html -->
+<section id="contact" class="section contact">
+  <div class="contact-contenu">
+    <div class="contact-gauche">
+      <h2>Contactez-nous</h2>
+      <p>
+        Vous avez une question ou un projet en tête ? Je serais ravi d’en discuter avec vous. Échangeons nos idées et créons ensemble quelque chose d’exceptionnel.
+      </p>
+      <ul class="contact-infos">
+        <li><span>📞</span> 00228 92 19 14 46</li>
+        <li><span>✉️</span> marietteahoueke@gmail.com</li>
+        <li><span>📍</span> Kpalimé, Togo</li>
+      </ul>
+      <div class="contact-socials">
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook"></a>
+      </div>
+    </div>
+    <form class="contact-formulaire">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Numéro de téléphone">
+      <textarea rows="4" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-contenu">
+    <nav class="footer-nav">
+      <a href="#apropos">A Propos</a>
+      <a href="#services">Services</a>
+      <span class="footer-logo"AM Services></span>
+      <a href="#realisations">Mes réalisations</a>
+      <a href="#blog">Blog</a>
+    </nav>
+    <div class="footer-socials">
+      <span>Suivez moi sur les réseaux sociaux</span>
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook"></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
